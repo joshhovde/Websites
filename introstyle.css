@@ -1,0 +1,70 @@
+
+.intro {
+  text-align: center;
+  color: #23c3ff;
+  text-transform: uppercase;
+  font-family:Arial;
+  word-spacing: 5px;
+  line-height: 35px;
+  font-size: 30px;
+  text-shadow: 2px 2px green;
+  margin: auto;
+  position: relative;
+  top:100px;
+}
+.hardline{
+    border-bottom: 2px solid black;
+    position: relative;
+    width: 530px;
+    top:88px;
+}
+.button {
+    box-sizing: border-box;
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border: 10px solid white;
+    border-width: medium;
+    border-radius: 20px;
+    opacity: 0.9;
+    position: relative;
+    left: 44%;
+    top: 130px;
+}
+
+.topbody {
+  background-image: url('http://joshcode.x10host.com/backgrounds/lake.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#container{
+  width:960px;
+  margin: 0px auto;
+}
+#center-column{
+  width: 1000px;
+}
+#center-column2{
+}
+
+@media screen and (max-width:959px) {
+#container{
+    width: 100%;
+    position: relative;
+    right: -14%;
+    bottom: 75px;
+  }
+#center-column{
+    width: 70%;
+  }
+#center-column2{
+    width: 70%;
+    position: relative;
+    right:0%
+}
+.topbody{
+  background-size: auto 1000px;
+}
