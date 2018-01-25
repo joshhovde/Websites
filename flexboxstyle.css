@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+}
+
+.wrapper{         <!-- need outside of container and to move everything with position: -->
+	width: auto;
+	height: auto;
+	position: relative;
+	top: 50%;
+	background-color: orange;
+}
+.container{
+	display: flex;
+	height: 500px;
+	width: 700px;
+	flex-wrap:wrap;
+	background-color: brown;
+	margin:auto;
+}
+
+.box{															/*   <----"Controls all boxes */
+	border-style: groove;
+	border-width: thick;
+	border-color: purple;
+	height: 100px;
+	width: 100px;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 5px;
+	flex-grow: 1;
+}
+ .one{                             /*   <----" box one */
+	background: blue;
+	margin: 5px;
+}
+.two{														/*   <----" box two */
+	background: green;
+	margin: 5px;
+}
+.three{ 											/*   <----" box three */
+	background: yellow;
+	margin: 5px;
+}
