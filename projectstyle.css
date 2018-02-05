@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  text-align: center;
+}
+header{
+position: absolute;
+left:0;
+right:0;
+font-size: 40px;
+}
+.ribbon{
+background-color:rgba(255, 255, 255, 0.7);
+height: 50%;
+width: 40em;
+position: relative;
+left: 8%;
+
+}
+h1{
+  padding-top: 1.5%;
+  text-align: center;
+  font-style: oblique;
+  color: #ff33bb;
+  text-shadow: 2px 2px white;
+}
+h2{
+  color:#33bbff;
+  font-size: 45px;
+  text-align: center;
+  font-style: oblique;
+  text-shadow: 1px 2px hotpink;
+}
+h3{
+  color:#33bbff;
+  font-size: 45px;
+  text-align: center;
+  font-style: oblique;
+  text-shadow: 1px 2px hotpink;
+}
+p{
+  font-size: 40px;
+  color: black;
+  font-weight: normal;
+}
+.button{
+  color: white;
+  font-size: 25px;
+  background-color: hotpink;
+  font-weight: bold;
+  border-radius: 60%;
+  padding: 6%;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin: 1%;
+}
+
+nav a {
+  font-weight: bold;
+  padding: 5px 10px;
+  font-size: 32px;
+  letter-spacing: 2px;
+  border-style: solid;
+  border-color:hotpink;
+  background-color: #33bbff;
+  text-decoration: none;
+  font-family:serif;
+  text-shadow: 1px 2px white;
+  color: black;
+  border-radius: 5%;
+
+
+}
+
+.icecream{
+background-image: url("../images/sunday.jpg");
+background-size: auto;
+background-repeat: no-repeat;
+background-position-x:50%;
+background-position-y:29%;
+padding: 400px 800px;
+background-color: #ff99ff;
+}
+.mobile{
+background-image: url("../images/mobile.jpg");
+background-size: auto;
+background-repeat: no-repeat;
+background-position-x:50%;
+background-position-y:40%;
+padding: 20em 0em;
+background-color:#33bbff;
+border-radius: 0px 0px 60px 60px;
+}
+
+.flavors{
+font-family: "Comic Sans MS", cursive, sans-serif;
+columns: 3;
+background-color: yellow;
+font-size: 25px;
+list-style-type: none;
+font-weight: 700;
+color: black;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.location{
+  background-image: url("../images/outdoor.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding: 400px 800px;
+  background-position-x:50%;
+  background-position-y:60%;
+  background-color: #33bbff;
+}
+.about{
+  border-top-style: dotted;
+  border-width: 1em;
+  border-top-color: yellow;
+
+}
+ul.flavors li{
+  color: black;
+  border-bottom-style:dashed;
+  border-bottom-color: hotpink;
+  border-bottom: 5%;
+  border-color: hotpink;
+  margin-left: -5%;
+}
+.cakes{
+  background-image: url("../images/.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position-x:50%;
+  background-position-y:40%;
+  padding:;
+  background-color:#33bbff;
+  border-radius: 0px 0px 60px 60px;
+}
