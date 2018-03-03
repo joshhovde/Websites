@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+/* background image
+============================================================================== */
+
+.background {
+  background-image: url("http://joshcode.x10host.com/backgrounds/lake.jpg");
+  background-position-y: 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 24.2%;
+  background-position-x: 50%;
+  background-position-y: 70%;
+}
+
+/* navigation for other websites
+====================================================================== */
+
+.navbar {
+  position: fixed;
+  text-align: center;
+  list-style: none;
+  margin: 0em;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  color: black;
+  font-size: 1.5em;
+}
+
+.listcolor {
+  color: black;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a, .navbar .dropb {
+  color: ;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em;
+  display: block;
+}
+
+.navbar li a:hover, .dropdown:hover .dropb {
+  background: #338b93;
+}
+
+.dropdown {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-info {
+  text-align: left;
+  background: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  display: none;
+}
+
+.dropdown:hover .dropdown-info {
+  display: block;
+}
+
+/* format for "J&J Ice Cream" */
+
+a[href="http://joshcode.x10host.com/Website/icecream.html"] {
+  font-family: cursive;
+  color: hotpink;
+  text-shadow: 2px 2px yellow;
+  font-weight: bold;
+}
+
+/* format for "Gameon" */
+
+a[href="http://joshcode.x10host.com/Website/gameon.html"] {
+  color: #0089f9;
+  text-shadow: 1px 1px black;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+/* text for "Future Web Developer"
+============================================================================*/
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-style: italic;
+  word-spacing: 5px;
+  line-height: 35px;
+  font-size: 45px;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Media queries
+============================================================================== */
+
+@media only screen and (max-width:900px) {
+  #container1 {
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    bottom: 50%;
+  }
+  .intro {
+    width: 100%;
+    padding-bottom: 3%;
+  }
+  .color {
+    line-height: 110%;
+    width: 100%;
+  }
+  .button {
+    line-height: 450%;
+    width: 100%;
+    height: 100%;
+    padding: 4%;
+  }
+  .footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+  }
+  @media only screen and (max-width: 961px) {
+    .background {
+      padding-bottom: 45em;
+    }
+    h1 {
+      background-color: rgba(0, 0, 0, 0.1);
+      line-height: 1em;
+      margin-top: 5em;
+    }
+    @media only screen and (min-width: 320px) and (max-width: 568px) {
+      .navbar {
+        font-size: 1em;
+        z-index: 1;
+      }
+      .background {
+        background-size: cover;
+        padding-bottom: 29em;
+      }
+      .wrapper {
+        position: relative;
+        right: 4em;
+        top: 2em;
+      }
+      h1 {
+        font-size: 1.5em;
+        word-spacing: normal;
+        line-height: normal;
+        text-shadow: 2px 1px black;
+        font-weight: bold;
+        width: 10em;
+        margin: 2em;
+      }
