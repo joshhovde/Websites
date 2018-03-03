@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #2b9df3;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  font-family: monospace;
+  color: #0089f9;
+  padding-top: 1em;
+  font-size: 5em;
+}
+
+h2 {
+  text-align: center;
+  margin: 0em;
+  font-size: 5em;
+}
+
+/* font for h2-h3 tags
+====================================================================== */
+
+.specialfont {
+  margin: 0em 1em 0em 0em;
+  font-size: 3em;
+  padding: 0;
+}
+
+.specialfont2 {
+  text-align: right;
+  margin: 0em 1em 0em 0em;
+  font-size: 3em;
+  padding: 0;
+}
+
+p {
+  font-family: monospace;
+  font-size: 2em;
+  text-align: center;
+  color: #0089f9;
+  font-weight: bold;
+}
+
+/* header Navigation
+========================================================================= */
+
+.navbar {
+  position: fixed;
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 1;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a, .navbar .dropb {
+  color: white;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em;
+  display: block;
+}
+
+.navbar li a:hover, .dropdown:hover .dropb {
+  background: red;
+}
+
+.dropdown {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-info {
+  text-align: left;
+  background: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  display: none;
+}
+
+.dropdown:hover .dropdown-info {
+  display: block;
+}
+
+/* PS4   "VR headset image"
+=============================================================== */
+
+.virtual {
+  background-image: url("http://joshcode.x10host.com/backgrounds/virtual.jpg");
+  background-size: cover;
+  padding: 28%;
+  background-repeat: no-repeat;
+}
+
+.font {
+  font-family: monospace;
+  color: #0089f9;
+  padding: 0;
+  font-size: 5em;
+}
+
+.font2 {
+  margin: 0;
+  text-align: center;
+}
+
+/* PS4 Video clip
+============================================================================ */
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 2em;
+}
+
+/* Div spacer above all images
+=======================================================*/
+
+div[id="1"], div[id="2"], div[id="3"], div[id="4"], div[id="5"], div[id="6"], div[id="7"], div[id="8"] {
+  padding: 1.5em;
+}
+
+/* backdrop image for all games and content
+====================================================================== */
+
+.backdrop {
+  background-image: url("http://joshcode.x10host.com/backgrounds/dark1.jpg");
+  z-index: -1;
+  padding: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* image size for all games.
+==========================================================================*/
+
+.game1, .game2, .game3, .game4, .game5, .game6, .game7, .game8 {
+  padding: 25em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* game images
+================================================================================ */
+
+.game1 {
+  background-image: url("http://joshcode.x10host.com/backgrounds/dream.png");
+}
+
+.game2 {
+  background-image: url("http://joshcode.x10host.com/backgrounds/torn.png");
+  background-position: right;
+}
+
+.game3 {
+  background-image: url("http://joshcode.x10host.com/backgrounds/xing.png");
+}
+
+.game4 {
+  background-image: url("http://joshcode.x10host.com/backgrounds/noheroes.png");
+  background-position: right;
+}
+
+.game5 {
+  background-image: url("http://joshcode.x10host.com/backgrounds/obduction.png");
+}
+
+.game6 {
+  background-image: url("http://joshcode.x10host.com/backgrounds/pollen.png");
+  background-position: right;
+}
+
+.game7 {
+  background-image: url("http://joshcode.x10host.com/backgrounds/sprint.png");
+}
+
+.game8 {
+  background-image: url("http://joshcode.x10host.com/backgrounds/net.png");
+  background-position: right;
+}
+
+/* footer banner
+================================================================= */
+
+.info2 {
+  background-image: url("http://joshcode.x10host.com/backgrounds/banner.jpg");
+  background-repeat: no-repeat;
+  padding: 2em;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* back to top
+=========================================================== */
+
+.back2 {
+  margin: 0;
+  float: right;
+  color: white;
+}
+
+/*Copyright
+/* ===========================================================  */
+
+strong {
+  color: #0089f9;
+  font-size: .7em;
+}
+
+/* Footer Navigation
+===============================================================*/
+
+nav[class="design2"] li a {
+  color: white;
+  text-decoration: none;
+  margin: .3em;
+}
+
+nav li {
+  display: inline-block;
+}
+
+/* Media queries
+==================================================== */
+
+@media only screen and (max-width:900px) {
+  .game1, .game2, .game3, .game4, .game5, .game6, .game7, .game8 {
+    background-position: none;
+    padding: 15em;
+  }
+  @media only screen and (min-width: 320px) and (max-width: 568px) {
+    .game1, .game2, .game3, .game4, .game5, .game6, .game7, .game8 {
+      padding: 10em;
+    }
+    .back2 {
+      float: none;
+      margin: 1em;
+    }
+    .navbar {
+      font-size: .8em;
+      padding: 0;
+    }
+    .navbar li a, .navbar .dropb {
+      padding: 1em;
+    }
+    p {
+      font-size: 1.5em;
+    }
+    .specialfont {
+      font-size: 2em;
+      text-align: center;
+    }
+    .specialfont2 {
+      font-size: 2em;
+      text-align: center;
+    }

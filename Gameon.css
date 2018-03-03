@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0em;
+}
+
+/* Header Navigation
+===================================================================================== */
+
+.navbar {
+  position: fixed;
+  text-align: center;
+  list-style: none;
+  margin: 0em;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a, .navbar .dropb {
+  color: white;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em;
+  display: block;
+}
+
+.navbar li a:hover, .dropdown:hover .dropb {
+  background: red;
+}
+
+.dropdown {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-info {
+  text-align: left;
+  background: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  display: none;
+}
+
+.dropdown:hover .dropdown-info {
+  display: block;
+}
+
+/* font for h1-h5
+=================================================================================*/
+
+.font {
+  font-size: 3em;
+  color: #0089f9;
+  font-weight: bold;
+  background-color: black;
+  margin: 0;
+  text-align: center;
+}
+
+/* paragraph
+================================================================================== */
+
+p {
+  color: white;
+  font-size: 2em;
+  background-color: rgba(17, 123, 252, 0.5);
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+/* youtube links
+====================================================================================*/
+
+a[href="https://youtu.be/5aAaTKuzJcc"], a[href="https://youtu.be/K0u_kAWLJOA"], a[href="https://youtu.be/PrVdpjA8I7M"], a[href="https://youtu.be/n95IaELdWDU"], a[href="https://youtu.be/Pq02p3z3X2k"], a[href="https://youtu.be/_b0LmqEhj6o"], a[href="https://youtu.be/sAmKdZdfV1c"], a[href="https://youtu.be/8FguiwVNCs0"] {
+  color: blue;
+}
+
+/* list style
+======================================================================== */
+
+li {
+  list-style-type: none;
+}
+
+li a[href="mailto:gameon@fake.com?Subject=Job%20offer"] {
+  text-decoration: none;
+}
+
+/* ps4 background
+========================================================================================== */
+
+.background {
+  background-image: url("http://joshcode.x10host.com/backgrounds/ps4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 28%;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+
+/* image size for all games
+================================================================================= */
+
+.game1, .game2, .game3, .game4, .game5, .game6, .game7, .game8 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 26em;
+}
+
+/* Background images for all Games
+====================================================================================/s */
+
+.game1 {
+  background-image: url("http://joshcode.x10host.com/backgrounds/inpatient.jpg");
+}
+
+.game2 {
+  background-image: url("http://joshcode.x10host.com/backgrounds/godofwar.jpg");
+}
+
+.game3 {
+  background-image: url("http://joshcode.x10host.com/backgrounds/systemshock.jpg");
+}
+
+.game4 {
+  background-image: url("http://joshcode.x10host.com/backgrounds/daysgone.jpg");
+}
+
+.game5 {
+  background-image: url("http://joshcode.x10host.com/backgrounds/spiderman.jpg");
+}
+
+.game6 {
+  background-image: url("http://joshcode.x10host.com/backgrounds/metro.jpg");
+}
+
+.game7 {
+  background-image: url("http://joshcode.x10host.com/backgrounds/detroit.jpg");
+}
+
+.game8 {
+  background-image: url("http://joshcode.x10host.com/backgrounds/moss.jpg");
+}
+
+/* bottom banner image
+==================================================================== */
+
+.info {
+  background-image: url("http://joshcode.x10host.com/backgrounds/banner.jpg");
+  background-repeat: no-repeat;
+  padding: 2em;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* Footer navigation
+========================================================================= */
+
+nav[class="design"] li a {
+  color: white;
+  text-decoration: none;
+  margin: .3em;
+}
+
+nav li {
+  display: inline-block;
+}
+
+/* Back to top
+==================================================================== */
+
+.back {
+  margin: 0;
+  float: right;
+  color: white;
+}
+
+/* Copyright
+========================================================================== */
+
+strong {
+  color: #0089f9;
+  font-size: .7em;
+}
+
+/* media queries
+===================================================================================== */
+
+@media only screen and (max-width: 900px) {
+  .game1, .game2, .game3, .game4, .game5, .game6, .game7, .game8 {
+    padding: 13em;
+  }
+  @media only screen and (min-width: 320px) and (max-width: 568px) {
+    a[href="https://youtu.be/5aAaTKuzJcc"], a[href="https://youtu.be/K0u_kAWLJOA"], a[href="https://youtu.be/PrVdpjA8I7M"], a[href="https://youtu.be/n95IaELdWDU"], a[href="https://youtu.be/Pq02p3z3X2k"], a[href="https://youtu.be/_b0LmqEhj6o"], a[href="https://youtu.be/sAmKdZdfV1c"], a[href="https://youtu.be/8FguiwVNCs0"] {
+      color: blue;
+    }
+    .background {
+      padding-bottom: 20em;
+    }
+    .game1, .game2, .game3, .game4, .game5, .game6, .game7, .game8 {
+      padding: 6.5em;
+    }
+    .back {
+      float: none;
+      margin: 1em;
+    }
+    p {
+      font-size: 1.5em;
+    }
+    a[class="back"] {
+      float: none;
+    }
+    .font {
+      font-size: 2.5em;
+    }
+    .navbar {
+      font-size: .8em;
+      padding: 0em;
+    }
+    .navbar li a, .navbar .dropb {
+      padding: 1em;
+    }
