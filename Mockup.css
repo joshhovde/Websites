@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2 {
+  float: left;
+  font-size: 3em;
+  font-family: sans-serif;
+  margin: .2em 0 0 0;
+}
+
+h3 {
+  color: #ff6200;
+  font-size: 2em;
+}
+
+.logo {
+  margin-left: 13em;
+}
+
+.main-contain {
+  background-color: #f9f9f9;
+  padding: 2em;
+}
+
+.second-contain {
+  margin-left: 58em;
+}
+
+.contain1 {
+  margin-left: 15em;
+  margin-right: 15em;
+}
+
+.contain {
+  padding: .1em;
+  background-color: #ff6200;
+}
+
+.container2 {
+  margin-left: 2em;
+}
+
+.container3 {
+  margin-left: 7.5em;
+  font-size: 2em;
+  color: #bdbdbd;
+}
+
+.container5 {
+  margin-left: 14em;
+}
+
+.container4 {
+  margin: 0;
+}
+
+.float {
+  float: left;
+}
+
+.color {
+  color: black;
+}
+
+.color2 {
+  color: #ff6200;
+}
+
+.custom {
+  color: #91380e;
+  font-size: 1em;
+  font-family: sans-serif;
+}
+
+.custom2 {
+  color: white;
+  font-size: 1em;
+  font-family: sans-serif;
+}
+
+a[href="tel:385-154-11-28-35"] {
+  margin: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0 0 .5em 0;
+  list-style: none;
+  line-height: 3em;
+  text-align: right;
+  color: black;
+}
+
+nav ul a {
+  font-size: 1em
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  padding: 5px 10px;
+  font-size: 32px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: black;
+}
+
+ul.navbar {
+  list-style: none;
+  width: 100%;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a, .navbar .dropb {
+  color: black;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 1em;
+  display: block;
+}
+
+.navbar li a:hover, .dropdown:hover .dropb {
+  background: white;
+}
+
+.dropdown {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-info {
+  text-align: left;
+  background: rgba(255, 255, 255);
+  position: absolute;
+  display: none;
+  font-size: 1em;
+}
+
+.dropdown:hover .dropdown-info {
+  display: block;
+}
+
+.search-bar, .search-bar1, .search-bar2, .search-bar3 {
+  margin: .2em;
+  font-weight: 300;
+  width: 40em;
+  padding: 1em;
+  background-color: #e3e3e3;
+  border: black;
+  display: block;
+}
+
+.container-form {
+  margin-left: 15em;
+}
+
+address {
+  font-size: 2em;
+  float: right;
+  display: inline-block;
+  width: 10em;
+  margin-right: 15em;
+  text-align: right;
+  position: relative;
+  color: #909090;
+}
+
+button {
+  margin: 1em;
+  width: 8em;
+  height: 3em;
+  background-color: #ff6200;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
